@@ -1,180 +1,169 @@
 
 
-Tipo de Análisis:
-Análisis de Contenido: Evaluar la representación de personajes femeninos en videojuegos, incluyendo la sexualización de los personajes. Esto podría involucrar un análisis de imágenes y descripciones de personajes en juegos.
-Análisis de Opiniones de Usuarios: Recopilar opiniones y comentarios de usuarios sobre videojuegos específicos para comprender cómo perciben la representación de personajes femeninos y la sexualización en los juegos.
-Análisis de Ventas y Recepción: Examinar las ventas y la recepción crítica de videojuegos con personajes femeninos sexualizados y compararlos con juegos que presentan representaciones más diversas y realistas de género.
+---
 
-OBJETIVO
-●	Evaluar la relación entre la representación sexualizada de personajes femeninos en videojuegos y la percepción de los usuarios, incluyendo su impacto en las ventas y la recepción crítica.
-●	Identificar patrones y tendencias en la representación de personajes femeninos en videojuegos a lo largo del tiempo y en diferentes géneros de juegos.
-●	Proporcionar recomendaciones para la industria de los videojuegos sobre cómo mejorar la representación de género y reducir la sexualización innecesaria de personajes femeninos.
+# 🎮 Análisis de Representación de Personajes Femeninos en Videojuegos
 
-¿Qué problema/conflicto vamos a resolver?
-El proyecto se enfoca en abordar problemas como la representación sexista o estereotipada de las mujeres en los videojuegos, la hipersexualización de personajes femeninos y cómo estos factores pueden influir en la percepción de género y la experiencia de juego de los usuarios.
+## 📊 Tipo de Análisis
 
-¿Qué nuevas preguntas de investigación nos gustaría agregar?
-¿Cuál es la percepción de los jugadores en cuanto a la representación de personajes femeninos en videojuegos y cómo influye en su experiencia de juego?
-¿Cuáles son las implicaciones de la representación de género en los videojuegos en términos de igualdad de género en la sociedad?
-¿En qué medida la inclusión de personajes femeninos más diversos y realistas impacta en las ventas y la recepción de los videojuegos?
-¿Qué estrategias han adoptado las de desarrollo?
-¿Cómo afecta la representación de género en los videojuegos a la percepción y elección?
+1. **Análisis de Contenido:**  
+   Evaluación de la representación de personajes femeninos en videojuegos, incluyendo su sexualización. Se analizan imágenes y descripciones de personajes.
 
-Audiencia Destinataria del Análisis:
-Jugadores y Comunidades de Jugadores de la plataforma “Steam”.
+2. **Análisis de Opiniones de Usuarios:**  
+   Recopilación de opiniones y comentarios de usuarios sobre videojuegos para comprender cómo perciben la representación femenina y su sexualización.
 
-MODELO ETL
-1.	RECOLECCIÓN DE DATOS (Extract)
-Obtener datos relevantes de fuentes diversas, como comentarios de usuarios en redes sociales, reseñas de juegos en sitios web, datos de ventas de videojuegos y descripciones de personajes de videojuegos. Se pueden utilizar web scraping, API de redes sociales y fuentes de datos de ventas de videojuegos.
-2.	TRANSFORM - 
-Procesar los datos para que sean adecuados para el análisis. Esto incluye la limpieza de datos, la normalización de texto, la categorización de la sexualización de personajes y la agregación de datos para obtener métricas significativas.
-3.	LOAD -
-Almacenar los datos transformados en una base de datos o almacén de datos. Esto permitirá realizar análisis en profundidad y consultas sobre los datos procesados.
+3. **Análisis de Ventas y Recepción:**  
+   Comparación de ventas y recepción crítica de juegos con personajes femeninos sexualizados vs. aquellos con representaciones más diversas y realistas.
 
-Modelo ER
-![modeloER](https://github.com/user-attachments/assets/9763f2ff-42ed-4cb6-880a-c20b8c8be020)
+---
 
+## 🎯 Objetivos del Proyecto
 
+- Evaluar la relación entre la representación sexualizada de personajes femeninos y la percepción de los usuarios.
+- Identificar patrones en la representación de personajes femeninos según el tiempo y el tipo de juego.
+- Proporcionar recomendaciones para mejorar la representación de género en la industria del videojuego.
 
+---
 
-Aplicando SQL:
-El Dataset base utilizado en excel se encuentra al clickear este [Link](https://drive.google.com/file/d/1rgG8ml0J2Q3zyIq6yXEGzcQyMYnxYEDx/view?usp=drive_link)
-https://drive.google.com/file/d/1rgG8ml0J2Q3zyIq6yXEGzcQyMYnxYEDx/view?usp=drive_link
-Previamente se importó el archivo .csv a SQL como tabla, dentro de una base de datos llamada “Proyecto”. Posteriormente, se realizaron las siguientes consultas utilizando SQL:
+## ❓ Problema a Resolver
 
--	Número de personajes femeninos:
+Abordar la representación sexista o estereotipada de las mujeres en videojuegos, la hipersexualización de personajes femeninos, y su influencia en la percepción de género y experiencia de juego.
 
-![Image](https://github.com/user-attachments/assets/59230045-8692-416e-a4b1-f65e64d61bb9)
+---
 
-![Image](https://github.com/user-attachments/assets/d768668f-92eb-4701-a830-caa7143a3102)
+## 🧠 Nuevas Preguntas de Investigación
 
+- ¿Cómo perciben los jugadores la representación femenina y cómo afecta su experiencia de juego?
+- ¿Qué implicaciones tiene esto para la igualdad de género en la sociedad?
+- ¿La inclusión de personajes más realistas influye en ventas y recepción crítica?
+- ¿Qué estrategias adoptaron las empresas de desarrollo?
+- ¿Cómo afecta la representación de género en la elección de los videojuegos?
 
--	Número de personajes masculinos:
+---
 
-![Image](https://github.com/user-attachments/assets/2ac1c1d0-602e-457a-93df-12d57009a366)
+## 🧑‍🤝‍🧑 Audiencia Objetivo
 
-![Image](https://github.com/user-attachments/assets/7e441146-2bb3-4ccb-9881-65c9011a1686)
+Jugadores y comunidades de jugadores de la plataforma **Steam**.
 
+---
 
--	Número de personajes no binarios:
+## 🛠️ Modelo ETL
 
-![Image](https://github.com/user-attachments/assets/01cfef05-fe43-4f59-8552-aca47d5ff8aa)
+1. **Extract - Recolección de Datos:**  
+   Comentarios en redes sociales, reseñas, ventas y descripciones de personajes. Uso de web scraping y APIs.
 
-![Image](https://github.com/user-attachments/assets/c7b2d3a6-1bfa-4f76-9f4b-6cee8fab26bc)
+2. **Transform - Transformación de Datos:**  
+   Limpieza de datos, normalización, categorización de niveles de sexualización y agregación de métricas.
 
+3. **Load - Carga:**  
+   Almacenamiento en base de datos para análisis profundo y consultas SQL.
 
--	Mayor número de personajes femeninos en un videojuego
+---
 
-![Image](https://github.com/user-attachments/assets/96e0dc3d-4546-4140-8b5b-e0d63448c129)
+## 📐 Modelo Entidad-Relación
 
-![Image](https://github.com/user-attachments/assets/0e185ea8-86d2-4374-8c15-b7adc51b3682)
+![Modelo ER](https://github.com/user-attachments/assets/9763f2ff-42ed-4cb6-880a-c20b8c8be020)
 
+---
 
--	Encontrar personajes femeninos adolescentes
+## 💾 Aplicación de SQL
 
-![Image](https://github.com/user-attachments/assets/9676d4d1-2530-4e25-97d2-f058b7fe2780)
+🔗 Dataset base en Excel: [Descargar aquí](https://drive.google.com/file/d/1rgG8ml0J2Q3zyIq6yXEGzcQyMYnxYEDx/view?usp=drive_link)
 
-![Image](https://github.com/user-attachments/assets/57017dcc-4ec5-40c8-8a0a-ad89d4c6e3be)
+Se importó el `.csv` a una base de datos llamada **"Proyecto"** y se realizaron las siguientes consultas:
 
+### 📌 Número de personajes por género:
 
--	Encontrar personajes femeninos que sean jugables:
+- Femeninos  
+  ![Img](https://github.com/user-attachments/assets/59230045-8692-416e-a4b1-f65e64d61bb9)  
+  ![Img](https://github.com/user-attachments/assets/d768668f-92eb-4701-a830-caa7143a3102)
 
-![Image](https://github.com/user-attachments/assets/d2efd298-a00e-454b-b6ec-4a165eaf0a90)
+- Masculinos  
+  ![Img](https://github.com/user-attachments/assets/2ac1c1d0-602e-457a-93df-12d57009a366)  
+  ![Img](https://github.com/user-attachments/assets/7e441146-2bb3-4ccb-9881-65c9011a1686)
 
-![Image](https://github.com/user-attachments/assets/28ad4c2f-3574-4802-af53-c42ea85f8240)
+- No Binarios  
+  ![Img](https://github.com/user-attachments/assets/01cfef05-fe43-4f59-8552-aca47d5ff8aa)  
+  ![Img](https://github.com/user-attachments/assets/c7b2d3a6-1bfa-4f76-9f4b-6cee8fab26bc)
 
-![Image](https://github.com/user-attachments/assets/96c9eedb-e714-447c-82db-bf4fc690d166)
+### 🎮 Otros análisis:
 
+- Videojuego con más personajes femeninos  
+  ![Img](https://github.com/user-attachments/assets/96e0dc3d-4546-4140-8b5b-e0d63448c129)  
+  ![Img](https://github.com/user-attachments/assets/0e185ea8-86d2-4374-8c15-b7adc51b3682)
 
--	Encontrar personajes femeninos con un nivel alto de sexualización
+- Personajes femeninos adolescentes  
+  ![Img](https://github.com/user-attachments/assets/9676d4d1-2530-4e25-97d2-f058b7fe2780)  
+  ![Img](https://github.com/user-attachments/assets/57017dcc-4ec5-40c8-8a0a-ad89d4c6e3be)
 
-![Image](https://github.com/user-attachments/assets/cba0a6cd-a52d-459a-b230-f9da70a28c20)
+- Personajes femeninos jugables  
+  ![Img](https://github.com/user-attachments/assets/d2efd298-a00e-454b-b6ec-4a165eaf0a90)  
+  ![Img](https://github.com/user-attachments/assets/28ad4c2f-3574-4802-af53-c42ea85f8240)  
+  ![Img](https://github.com/user-attachments/assets/96c9eedb-e714-447c-82db-bf4fc690d166)
 
-![Image](https://github.com/user-attachments/assets/3fdf2974-e8f1-4617-b7a6-099691b924d4)
+- Nivel alto de sexualización  
+  ![Img](https://github.com/user-attachments/assets/cba0a6cd-a52d-459a-b230-f9da70a28c20)  
+  ![Img](https://github.com/user-attachments/assets/3fdf2974-e8f1-4617-b7a6-099691b924d4)
 
+---
 
+## 📊 Power BI
 
-POWER BI
+🔗 [Ver Dashboard en Power BI](https://app.powerbi.com/groups/me/reports/e30548fc-f773-4cab-a9b1-82c5567c4e5c/ReportSection?experience=power-bi)
 
-[Link](https://app.powerbi.com/groups/me/reports/e30548fc-f773-4cab-a9b1-82c5567c4e5c/ReportSection?experience=power-bi) al Dashboard en Power BI:
+### 📁 Fuente de los Datos
 
+[Characters.grivg - Google Sheets](https://docs.google.com/spreadsheets/d/1ocTagpHKOQ7pY4ZPWMhzSEEYMx_-2N-epRS5w_CJAxs/edit#gid=1457270248&fvid=1118138477)
 
-Fuente de los datos:
-[Characters.grivg](https://docs.google.com/spreadsheets/d/1ocTagpHKOQ7pY4ZPWMhzSEEYMx_-2N-epRS5w_CJAxs/edit#gid=1457270248&fvid=1118138477)
+### 🔍 Consultas Power BI
 
+- ¿Qué porcentaje de especies aparecen en videojuegos?  
+  ![Img](https://github.com/user-attachments/assets/8012b540-31cb-4962-83d9-ad63b7deef92)
 
+- ¿Cuál es el porcentaje de género de los personajes?  
+  ![Img](https://github.com/user-attachments/assets/fe91a2be-6074-444f-afa7-435bac38c2f4)
 
-Logo:
+- ¿Cuál es el porcentaje de personajes jugables por género?  
+  ![Img](https://github.com/user-attachments/assets/80361115-4196-4e36-b1c2-691deea88c9c)
 
-![Image](https://github.com/user-attachments/assets/54f57151-021d-4caf-a9a6-516505010225)
+- Niveles de sexualización en personajes por videojuego  
+  ![Img](https://github.com/user-attachments/assets/ae2d9fd2-d207-4838-bb6f-08110a9f16bb)
 
+---
 
-Dashboard PowerBI:
-Consultas:
+## 🧩 Modelo Relacional
 
+![Modelo Relacional](https://github.com/user-attachments/assets/74864121-c8a8-4bcd-9f8a-c2d1b9d140d6)
 
+---
 
-¿Qué porcentaje de especies aparecen en los videojuegos?
+## 🧮 Funciones y Cálculos Usados
 
-![Image](https://github.com/user-attachments/assets/8012b540-31cb-4962-83d9-ad63b7deef92)
+### 📌 Funciones DAX:
 
+- `COUNT`: Cuenta juegos con personajes sexualizados.
+- `SUM`: Suma de porcentajes de géneros.
+- `DIVIDE`: Cálculo de porcentajes de personajes jugables.
 
+### 📈 Cálculos Realizados:
 
-¿Cuál es el porcentaje de género de los personajes que aparecen en los videojuegos?
+- **% Personajes femeninos jugables:**  
+  Número de personajes femeninos jugables / Total de personajes jugables.
 
-![Image](https://github.com/user-attachments/assets/fe91a2be-6074-444f-afa7-435bac38c2f4)
+- **% Juegos con personajes sexualizados:**  
+  Juegos con personajes sexualizados / Total de juegos.
 
+### 🔄 Transformaciones de Datos:
 
-¿Cuál es el porcentaje de género en la que los personajes en los videojuegos son jugables?
+- Eliminación de duplicados.
+- Formateo de fechas y horas.
 
-![Image](https://github.com/user-attachments/assets/80361115-4196-4e36-b1c2-691deea88c9c)
+---
 
- 
-De estos videojuegos, ¿Cuál es la suma de sus niveles de sexualización en sus personajes?
+## 🖼️ Logo del Proyecto
 
-![Image](https://github.com/user-attachments/assets/ae2d9fd2-d207-4838-bb6f-08110a9f16bb)
+![Logo](https://github.com/user-attachments/assets/54f57151-021d-4caf-a9a6-516505010225)
 
+---
 
-
-
-
-
-
-
-
-
-Modelo Relacional:
-
-![Image](https://github.com/user-attachments/assets/74864121-c8a8-4bcd-9f8a-c2d1b9d140d6)
-
-
-
-
-
-
-
-
-Se utilizaron las siguientes funciones:
-●	COUNT: Para contar el número de juegos con personajes femeninos sexualizados.
-●	SUM: Para sumar el porcentaje de personajes de los distintos géneros.
-●	DIVIDE: Para dividir dos valores y poder calcular el porcentaje de personajes jugables.
-Se realizaron los siguientes cálculos en DAX:
-●	Porcentaje de personajes femeninos jugables: Para calcular este porcentaje, se divide el número de personajes femeninos jugables por el número total de personajes jugables.
-●	Porcentaje de juegos con personajes femeninos sexualizados: Para calcular este porcentaje, se divide el número de juegos con personajes femeninos sexualizados por el número total de juegos.
-Transformaciones de datos:
-●	Se eliminaron los registros duplicados.
-●	Se formatearon las fechas y las horas.
-●	Se crearon nuevas columnas a partir de los datos existentes.
-Glosario de términos
-●	Name: El nombre del personaje.
-●	Gender: El género del personaje. Puede ser femenino, masculino, no binario o desconocido.
-●	Game: El nombre del juego en el que aparece el personaje.
-●	Age: La edad del personaje, en años (época de vida a los que no se conoce la edad exacta).
-●	Age_range: El rango de edad del personaje, es decir, la etapa de vida de ese personaje.
-●	Playable: Si el personaje es jugable o no. Puede ser 0 (no jugable) o 1 (jugable).
-●	Sexualization: Si el personaje está sexualizado o no. Puede ser 0 (no sexualizado), 1 (poco sexualizado), 2 (sexualizado) o 3 (altamente sexualizado).
-●	ID: Un identificador único para el personaje.
-●	Species: La especie del personaje. Puede ser humano, alienígena, animal, robot u otro.
-●	Side: El lado en el que está el personaje. Puede ser P (Protagonist), B (bad guy/girl), A (Ally).
-●	Relevance: Cómo de relevante es el personaje para la trama del juego. Pueden ser: PA (Personaje principal), SC (Personaje secundario), MC (Personaje con impacto menor) o DA (Data). 
-●	Romantic_Interest: Si el personaje tiene un interés romántico o no. Puede ser Sí o No.
+¿Querés que lo suba como archivo `.md` o querés que te lo deje en un formato descargable también?
