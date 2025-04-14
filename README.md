@@ -1,3 +1,5 @@
+
+
 Tipo de Análisis:
 Análisis de Contenido: Evaluar la representación de personajes femeninos en videojuegos, incluyendo la sexualización de los personajes. Esto podría involucrar un análisis de imágenes y descripciones de personajes en juegos.
 Análisis de Opiniones de Usuarios: Recopilar opiniones y comentarios de usuarios sobre videojuegos específicos para comprender cómo perciben la representación de personajes femeninos y la sexualización en los juegos.
@@ -104,17 +106,33 @@ Fuente de los datos:
 
 Logo:
 
+![Image](https://github.com/user-attachments/assets/54f57151-021d-4caf-a9a6-516505010225)
 
 
+Dashboard PowerBI:
 Consultas:
+
+
+
 ¿Qué porcentaje de especies aparecen en los videojuegos?
 
+![Image](https://github.com/user-attachments/assets/8012b540-31cb-4962-83d9-ad63b7deef92)
+
+
+
 ¿Cuál es el porcentaje de género de los personajes que aparecen en los videojuegos?
+
+![Image](https://github.com/user-attachments/assets/fe91a2be-6074-444f-afa7-435bac38c2f4)
+
+
 ¿Cuál es el porcentaje de género en la que los personajes en los videojuegos son jugables?
+
+![Image](https://github.com/user-attachments/assets/80361115-4196-4e36-b1c2-691deea88c9c)
+
  
 De estos videojuegos, ¿Cuál es la suma de sus niveles de sexualización en sus personajes?
 
-
+![Image](https://github.com/user-attachments/assets/ae2d9fd2-d207-4838-bb6f-08110a9f16bb)
 
 
 
@@ -127,7 +145,7 @@ De estos videojuegos, ¿Cuál es la suma de sus niveles de sexualización en sus
 
 Modelo Relacional:
 
-
+![Image](https://github.com/user-attachments/assets/74864121-c8a8-4bcd-9f8a-c2d1b9d140d6)
 
 
 
