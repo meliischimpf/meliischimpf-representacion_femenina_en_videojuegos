@@ -42,56 +42,66 @@ Previamente se importó el archivo .csv a SQL como tabla, dentro de una base de 
 
 -	Número de personajes femeninos:
 
+![Image](https://github.com/user-attachments/assets/59230045-8692-416e-a4b1-f65e64d61bb9)
+
+![Image](https://github.com/user-attachments/assets/d768668f-92eb-4701-a830-caa7143a3102)
 
 
 -	Número de personajes masculinos:
 
+![Image](https://github.com/user-attachments/assets/2ac1c1d0-602e-457a-93df-12d57009a366)
 
+![Image](https://github.com/user-attachments/assets/7e441146-2bb3-4ccb-9881-65c9011a1686)
 
 
 -	Número de personajes no binarios:
 
+![Image](https://github.com/user-attachments/assets/01cfef05-fe43-4f59-8552-aca47d5ff8aa)
 
+![Image](https://github.com/user-attachments/assets/c7b2d3a6-1bfa-4f76-9f4b-6cee8fab26bc)
 
 
 -	Mayor número de personajes femeninos en un videojuego
 
+![Image](https://github.com/user-attachments/assets/96e0dc3d-4546-4140-8b5b-e0d63448c129)
 
-
-
-
+![Image](https://github.com/user-attachments/assets/0e185ea8-86d2-4374-8c15-b7adc51b3682)
 
 
 -	Encontrar personajes femeninos adolescentes
 
+![Image](https://github.com/user-attachments/assets/9676d4d1-2530-4e25-97d2-f058b7fe2780)
 
-
+![Image](https://github.com/user-attachments/assets/57017dcc-4ec5-40c8-8a0a-ad89d4c6e3be)
 
 
 -	Encontrar personajes femeninos que sean jugables:
 
+![Image](https://github.com/user-attachments/assets/d2efd298-a00e-454b-b6ec-4a165eaf0a90)
 
+![Image](https://github.com/user-attachments/assets/28ad4c2f-3574-4802-af53-c42ea85f8240)
 
-
-
-
-
-
-
-
-
+![Image](https://github.com/user-attachments/assets/96c9eedb-e714-447c-82db-bf4fc690d166)
 
 
 -	Encontrar personajes femeninos con un nivel alto de sexualización
 
+![Image](https://github.com/user-attachments/assets/cba0a6cd-a52d-459a-b230-f9da70a28c20)
 
+![Image](https://github.com/user-attachments/assets/3fdf2974-e8f1-4617-b7a6-099691b924d4)
 
 
 
 POWER BI
+
 [Link](https://app.powerbi.com/groups/me/reports/e30548fc-f773-4cab-a9b1-82c5567c4e5c/ReportSection?experience=power-bi) al Dashboard en Power BI:
+
+
 Fuente de los datos:
 [Characters.grivg](https://docs.google.com/spreadsheets/d/1ocTagpHKOQ7pY4ZPWMhzSEEYMx_-2N-epRS5w_CJAxs/edit#gid=1457270248&fvid=1118138477)
+
+
+
 Logo:
 
 
