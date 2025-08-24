@@ -164,6 +164,3 @@ Se importó el `.csv` a una base de datos llamada **"Proyecto"** y se realizaron
 
 ![Logo](https://github.com/user-attachments/assets/54f57151-021d-4caf-a9a6-516505010225)
 
----
-
-¿Querés que lo suba como archivo `.md` o querés que te lo deje en un formato descargable también?
